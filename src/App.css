@@ -1,0 +1,20 @@
+body{
+    margin: 5rem auto;
+    text-align: center;
+
+}
+h1{
+    font-size: 30px;
+    margin: 4rem 0;
+}
+label{
+    font-size: 20px;
+}
+
+input{
+    margin: 2rem 0;
+    font-size: 22px;
+}
+button {
+    margin: 1rem 0;
+}

@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './App.css'
 
 export default function App() {
   const [query, setQuery] = useState('')
@@ -21,8 +22,8 @@ export default function App() {
   return(
     <div>
       <form onSubmit={searchMovies}>
-        <label htmlFor='query'>Movie Search</label>
-        <input type='text' name='query' placeholder='i.e. Jurassic Park' value={query} onChange={(e) => setQuery(e.target.value)}/>
+        <label htmlFor='query'>Movie Search</label><br />
+        <input type='text' name='query' placeholder='i.e. Jurassic Park' value={query} onChange={(e) => setQuery(e.target.value)}/><br />
         <button type="submit">Search</button>
       </form>
 
